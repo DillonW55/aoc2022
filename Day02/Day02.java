@@ -21,6 +21,7 @@ public class Day02 {
         return score;
     }
 
+<<<<<<< HEAD
     public static int evaluate2(String strategy) {
         int score = 0;
         String[] choices = strategy.split(" ");
@@ -29,6 +30,8 @@ public class Day02 {
         int diffMod3 = Math.floorMod((otherChoice - myChoice),3);
     }
 
+=======
+>>>>>>> 66f9190bd828e5380e8a2a815f512ccc14c1f92b
     public static void part1() throws IOException {
         Scanner in = new Scanner(new File("input.txt"));
         int total = 0;
