@@ -121,7 +121,7 @@ public class Day05 {
             Stack<String> boxes = new Stack<String>();
             for(int i = 0; i < numToMove; i++){
                 String box = stacks.get(moveFrom).pop();
-                stacks.get(moveTo).push(box);
+                boxes.push(box);
 
             }
 
