@@ -40,7 +40,7 @@ public class Day04 {
             int c = Integer.parseInt(sect2[0]);
             int d = Integer.parseInt(sect2[1]);
 
-            if(a <= c && b <= d || c <= b && b <= d){
+            if(!(a < c && b < c || a > d)){
                 count++;
             }
             System.out.println(count);
